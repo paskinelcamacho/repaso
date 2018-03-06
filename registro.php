@@ -7,7 +7,10 @@
 
 </head>
 <body>
-	<h1>Registro</h1>
+	<div id="titulo"> <h1>Registro</h1></div>
+
+	<div id="formulario">
+	
 	<p>Ingrese los datos completos: </p> <br/>
 
 	<form action="accion.php" method="post">
@@ -18,5 +21,6 @@
 	<p>Correo electrónico: <input type="text" name="email" /></p>
 	<p><input type="submit" /></p>
 	</form>
+	</div>
 </body>
 </html>
